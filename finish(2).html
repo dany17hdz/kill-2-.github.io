@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(66, 4, 4);
+            color: burlywood;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        pre{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    </style>
+</head>
+<body>
+
+   <pre> Resumen: Henry Hudson, nacido c. <br> 1565 en Londres  (fecha aproximada <br> 12 de septiembre),fue un explorador inglés. <br> En 1611 una parte de su <br> tripulación lo dejó a la  deriva Hudson <br> y algunos hombres <br> nunca regresaron y se le considera <br> desaparecido desde entonces.
+    </pre>
+    <p>el <b>ultimo</b> dia, mes y <b>año</b> de <b>vida</b> es el mas doloroso aunque no siempre es así</p>
+    <p>tambien dicen que polos opuestos se atraen pero si hay <b>3 iguales</b>? y solo <b>uno diferente</b> seria mejor sumar no? en vez de restar!!!</p>
+    <input type="text" id="respuesta">
+    <button id="butt" onclick="verificar()">verificar</button>
+    <script>
+        function verificar() {
+            var input = document.getElementById("respuesta").value;
+            // La respuesta esperada es la URL relativa descifrada
+            if (input.trim() === "meme.html") {
+                window.location.href = "meme.html";
+            } else {
+                alert("Incorrecto. Recuerda que es hexadecimal.");
+            }
+        }
+    </script>
+    
+    
+</body>
+</html>

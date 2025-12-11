@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+<style>
+  body{
+    background-color:black;
+    color: rgb(80, 9, 9);
+  }
+  a{
+    color: red;
+  }
+  input{
+    background-color: darkred;
+    border: 0;
+  }
+  pre {
+    font-family: monospace;
+    color: green;
+    font-size: 10px;
+    white-space: pre;
+  }
+  @media screen and (max-width:900px) {
+    body{
+        width: 100%;
+        max-width: 800px;
+    }
+  }
+  #enlace a {
+    font-size: 16px;
+    color: blue;
+    text-decoration: underline;
+    display: block;
+    margin-top: 5px;
+  }
+</style>
+</head>
+<body>
+
+<h2>Ingresa la segunda contraseña:</h2>
+<input type="text" id="respuesta" placeholder="contraseña">
+<button onclick="verificar()">Verificar</button>
+<div id="asciiArt"><pre></pre></div>
+<div id="enlace" style="margin-top:20px;"></div>
+
+<script src="sextaparte.js">
+</script>
+
+</body>
+</html>
